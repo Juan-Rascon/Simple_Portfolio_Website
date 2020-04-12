@@ -10,9 +10,9 @@ More importantly, I learned how to read, re-read, and then read again to underst
 Reading up on Flexbox, through CCS-Trick's website also proved to be instrumental in understanding a lot of the web design concepts. 
 
 ## Tools Used
-*[Bootstrap](https://getbootstrap.com)
-*[Markup Validation Service](https://validator.w3.org/#validate_by_input)
-*Chrome's Dev Tools
+1.[Bootstrap](https://getbootstrap.com)
+2.[Markup Validation Service](https://validator.w3.org/#validate_by_input)
+3. Chrome's Dev Tools
 
 ## Sites used for reference
-*[CSS-Tricks](https://css-tricks.com/)
+* [CSS-Tricks](https://css-tricks.com/)
