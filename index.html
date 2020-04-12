@@ -11,40 +11,44 @@
     <title>My Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md py-0">
-      <div class = "container border-bottom">
-            <header class="navbar-brand d-flex flex-row" >
-              <h1>Juan Rascon</h1>
-            </header>
-            <ul class="navbar-nav d-flex flex-row justify-content-md-end ">
-              <li class="nav-item active px-2">
-                <a class="nav-link text-black-50" href="index.html">About<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item px-2 border-left border-right">
-                <a class="nav-link text-black-50" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link text-black-50" href="contact.html">Contact</a>
-              </li>
-            </ul>
+    <div class = "container d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-secondary">
+      <!-- My Header -->
+        <header class = "m-3">
+          <h1 class="m-0 text-light">Juan Rascon</h1>
+        </header>
+<!-- Start of the Navigation Bar -->
+        <nav class="d-md-flex flex-grow-1 justify-content-end">
+          <a class="my-4 p-2 text-light" href="index.html">About</a>
+          <a class="my-4 p-2 text-light" href="Portfolio.html">Portfolio</a>
+          <a class="my-4 p-2 text-light" href="contact.html">Contact</a>
+        </nav>
+    </div>
+      <!-- Start of Main Content -->
+    <main class="container my-5 p-5 bg-light">
+      <div class="row">
+        <div class="col-md py-md-3 border-bottom text-center text-md-left">
+          <h2>About Me</h2>
+        </div>
       </div>
-    </nav>
-    <main class="container d-flex h-100 p-5 bg-light">
-      <div class ="row">
-        <div class = "col-md">
-          <img src="assets/placeholder.png" class = "flex-inline" alt="Image of Juan Rascon">
-          <p>My name is Juan Rascon. I majored in Economics from UCLA and while I initially pursued a career in finance, I eventually decided to dive into coding. I enjoy the pursuit of problem-solving and that satisfied feeling of getting the job done.</p>
-          <p>I'm currently growing my skill-set to become a more experienced and knowledgable web developer. I may not have the efficiency of a more seasoned developer, but rest assure you that I will be 100% dedicated to help you solve your problem. We will work together to develop the perfect solution to help address your current business needs.</p>
-          <p>If you would like to get a preview of my work, or see my working history, the following links:
-              <li><a href="https://github.com/jayskratch?tab=repositories">GitHub Repository</a></li>
-              <li><a href="https://www.linkedin.com/in/juanrascon/">Linked-In Account</a></li>
-          </p>
+      <div class ="row d-flex mt-4">
+        <div class = "col-md text-center">
+          <img src="assets/mypic.jpg" class="img-fluid img-thumbnail mb-4 w-75" alt="Image of Juan Rascon">
+        </div>
+        <div class = "col-md-6">
+          <p>My name is Juan Rascon. I majored in Economics from UCLA and while I initially pursued a career in finance, I eventually decided to dive into coding. I enjoy problem-solving and doing research to find how the solution to a problem.</p>
+          <p>I'm currently growing my skill-set to become a more experienced and knowledgable web developer. I may not have the efficiency of a more seasoned developer, but rest assured that I will be 100% dedicated to help you solve your problem. We will work together to develop the perfect solution to help address your current business needs.</p>
+          <p>If you would like to get a preview of my work, or see my working history, check out the following links:</p>
+              <ul>
+                <li><a href="https://github.com/jayskratch?tab=repositories">GitHub Repository</a></li>
+                <li><a href="https://www.linkedin.com/in/juanrascon/">Linked-In Account</a></li>
+              </ul>
         </div>
       </div>
     </main>
+<!-- Start of Fooooter -->
     <footer class="container fixed-bottom">
       <div class="row p-1 bg-info"></div>
       <div class="row p-3 bg-secondary"></div>
-    </footer>
+  </footer>
   </body>
 </html>
