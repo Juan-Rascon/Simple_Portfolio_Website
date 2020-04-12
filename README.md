@@ -7,12 +7,14 @@ During this project, I learned how to build my own webpage using Bootstrap. It w
 
 More importantly, I learned how to read, re-read, and then read again to understand what the documentation is telling me. It took a good while to finally understand some of the concepts with Bootstraps. 
 
-Reading up on Flexbox, through CCS-Trick's website also proved to be instrumental in understanding a lot of the web design concepts. 
+Reading up on Flexbox, through CCS-Trick's website also proved to be instrumental in understanding a lot of the web design concepts.
+
+Finally, using the Markup Validation Service from w3.org, helped me find some opened div tags which completed my final check of my code.
 
 ## Tools Used
-1.[Bootstrap](https://getbootstrap.com)
-2.[Markup Validation Service](https://validator.w3.org/#validate_by_input)
-3. Chrome's Dev Tools
+* [Bootstrap](https://getbootstrap.com)
+* [Markup Validation Service](https://validator.w3.org/#validate_by_input)
+* Chrome's Dev Tools
 
 ## Sites used for reference
 * [CSS-Tricks](https://css-tricks.com/)
