@@ -1,6 +1,6 @@
-# Week 2 HW
+# Simple Portfolio Website
 ## Description
-This project involved building our own portfolio website and utilizing the components from Bootstrap's CCS utilities to stylized our webpage.
+This project involved building a simple portfolio website and utilizing the components from Bootstrap's CCS utilities to stylized the webpage.
 
 ## Learning Experience
 =======
